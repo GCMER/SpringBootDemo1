@@ -26,9 +26,9 @@ public class MeetClinicDAO {
     private Connection conn;
     private MeetClinic mc = null;
     private String driver = "com.mysql.jdbc.Driver";
-    private String url = "jdbc:mysql://ngarihealth.mysql.rds.aliyuncs.com:3306/eh_base?useUnicode=true&amp;characterEncoding=utf-8";
-    private String user = "ehbase_live";
-    private String passWord = "LiveBase@2016_";
+    private String url = "jdbc:mysql://localhost:3306/springBoot_test?useUnicode=true&amp;characterEncoding=utf-8";
+    private String user = "root";
+    private String passWord = "";
 
     public MeetClinicDAO() {
     }
